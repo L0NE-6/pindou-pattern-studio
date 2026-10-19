@@ -1,0 +1,15 @@
+{
+  "name": "拼豆图纸工坊",
+  "version": "1.0.0",
+  "category": "AI生活达人 / 兴趣娱乐与内容创作",
+  "description": "将图片转换为 MARD 色号拼豆网格，输出色号图、拼豆预览、CSV 和用量清单。",
+  "entrypoints": {
+    "auto": "python scripts/auto_pattern.py",
+    "render": "python scripts/render_pattern.py"
+  },
+  "examples": [
+    "examples/blue_maid_25_preview.png",
+    "examples/blue_maid_30_preview.png"
+  ],
+  "license": "MIT"
+}
